@@ -1,5 +1,5 @@
 {
-  "name": "iboiswebapi",
+  "name": "iboiswebapi2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application.",
@@ -20,7 +20,7 @@
   "dependencies": {
     "knex": "latest",
     "lodash": "^4.17.5",
-    "mysql": "2.17.1",
+    "pg": "7.11.0",
     "strapi": "3.0.0-beta.7",
     "strapi-admin": "3.0.0-beta.7",
     "strapi-hook-bookshelf": "3.0.0-beta.7",
@@ -35,19 +35,19 @@
     "strapi-utils": "3.0.0-beta.7"
   },
   "author": {
-    "name": "A Strapi developer",
+    "name": "pomf",
     "email": "",
     "url": ""
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
+      "name": "pomf",
       "email": "",
       "url": ""
     }
   ],
   "strapi": {
-    "uuid": "32fc67d8-a8f7-44fd-af38-3950744051a7"
+    "uuid": "43f3ecbd-1caf-41bb-8191-52c7194a7df7"
   },
   "engines": {
     "node": "^10.0.0",

@@ -4,11 +4,11 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "mysql",
+        "client": "postgres",
         "host": "127.0.0.1",
-        "port": 3306,
+        "port": 5432,
         "database": "iboisdb",
-        "username": "root",
+        "username": "postgres",
         "password": ""
       },
       "options": {}
