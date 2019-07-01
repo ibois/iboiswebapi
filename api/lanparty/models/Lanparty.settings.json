@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "lanparty",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "decription": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

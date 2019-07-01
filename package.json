@@ -18,13 +18,10 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "dependencies": {
-    "knex": "latest",
     "lodash": "^4.17.5",
-    "pg": "7.11.0",
     "strapi": "3.0.0-beta.7",
     "strapi-admin": "3.0.0-beta.7",
-    "strapi-hook-bookshelf": "3.0.0-beta.7",
-    "strapi-hook-knex": "3.0.0-beta.7",
+    "strapi-hook-mongoose": "3.0.0-beta.7",
     "strapi-plugin-content-manager": "3.0.0-beta.7",
     "strapi-plugin-content-type-builder": "3.0.0-beta.7",
     "strapi-plugin-email": "3.0.0-beta.7",
@@ -47,7 +44,7 @@
     }
   ],
   "strapi": {
-    "uuid": "43f3ecbd-1caf-41bb-8191-52c7194a7df7"
+    "uuid": "a07d124b-05fe-4fa1-ad1c-476369345d1b"
   },
   "engines": {
     "node": "^10.0.0",

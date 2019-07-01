@@ -2,13 +2,13 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-bookshelf",
+      "connector": "strapi-hook-mongoose",
       "settings": {
-        "client": "postgres",
+        "client": "mongo",
         "host": "127.0.0.1",
-        "port": 5432,
+        "port": 27017,
         "database": "iboisdb",
-        "username": "postgres",
+        "username": "",
         "password": ""
       },
       "options": {}

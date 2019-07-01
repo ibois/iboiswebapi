@@ -1,10 +1,3 @@
-# iboiswebapi
-strapi cms for iboisweb
+# iboiswebapi2
 
-## Install postgres
-
-### postgres dev docker
-
-```
-$ docker run --name postgresbois -e POSTGRES_DB=iboisdb -d -p 5432:5432 postgres
-```
+A quick description of iboiswebapi2.

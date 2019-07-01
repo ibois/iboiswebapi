@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lanparties",
+      "handler": "Lanparty.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lanparties/count",
+      "handler": "Lanparty.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lanparties/:_id",
+      "handler": "Lanparty.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lanparties",
+      "handler": "Lanparty.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lanparties/:_id",
+      "handler": "Lanparty.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lanparties/:_id",
+      "handler": "Lanparty.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

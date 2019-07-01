@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "result",
+  "info": {
+    "name": "result",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "place": {
+      "type": "integer"
+    },
+    "tournament": {
+      "type": "string"
+    },
+    "lanparty": {
+      "model": "lanparty"
+    },
+    "game": {
+      "model": "game"
+    }
+  }
+}
