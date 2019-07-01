@@ -1,3 +1,10 @@
-# iboiswebapi2
+# iboiswebapi
+strapi cms for iboisweb
 
-A quick description of iboiswebapi2.
+## Install mongodb
+
+### mongodb dev docker
+
+```
+$ docker run -d -p 27017:27017 --name mongobois -e MONGO_INITDB_DATABASE=iboisdb mongo
+```
