@@ -27,6 +27,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "users": {
+      "collection": "user",
+      "via": "games",
+      "plugin": "users-permissions"
     }
   }
 }

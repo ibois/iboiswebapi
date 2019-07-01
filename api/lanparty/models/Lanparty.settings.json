@@ -20,6 +20,11 @@
     },
     "website": {
       "type": "string"
+    },
+    "users": {
+      "collection": "user",
+      "via": "lanparties",
+      "plugin": "users-permissions"
     }
   }
 }

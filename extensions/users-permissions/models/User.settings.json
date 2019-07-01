@@ -19,16 +19,6 @@
       "configurable": false,
       "required": true
     },
-    "email": {
-      "type": "email",
-      "minLength": 6,
-      "configurable": false,
-      "required": true
-    },
-    "provider": {
-      "type": "string",
-      "configurable": false
-    },
     "password": {
       "type": "password",
       "minLength": 6,
@@ -64,6 +54,16 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "games": {
+      "collection": "game",
+      "via": "users",
+      "dominant": true
+    },
+    "lanparties": {
+      "collection": "lanparty",
+      "via": "users",
+      "dominant": true
     }
   }
 }
