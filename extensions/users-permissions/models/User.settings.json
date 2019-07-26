@@ -61,9 +61,9 @@
       "dominant": true
     },
     "lanparties": {
-      "collection": "lanparty",
-      "via": "users",
-      "dominant": true
+      "collection": "event",
+      "dominant": true,
+      "via": "users"
     }
   }
 }
