@@ -42,6 +42,10 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "isLan": {
+      "required": true,
+      "type": "boolean"
     }
   }
 }
